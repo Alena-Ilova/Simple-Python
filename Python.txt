@@ -1,0 +1,7 @@
+Conclusions
+1.	I took 3 integers from the user and stored them in variables a, b, c. This task contains 3 different comparisons by using if. 
+The first condition is where a is greater than b and it changed their values using packing and unpacking tuples (in my case). The second condition compares a and c and it again swapped the values. The third condition compares b and c, but here the values were not swapped as b is not greater than c.
+As a result, the sorted order was [b, a, c].
+
+2.	I created the list of different data types of elements: floats, integers, strings, booleans.
+I used string_count to 5 to keep track of the elements. After, I looped to repeat each element in my_list. Then I checked if the current element was a string by using type == string. I increased string_count by 99 and then the loop processed all elements. Finally, I printed the final count of string elements by f-string.
